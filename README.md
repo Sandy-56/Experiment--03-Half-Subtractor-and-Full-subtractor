@@ -74,10 +74,10 @@ Result:
 Thus the half subtractor and full subtractor circuits are designed and the truth tables is verified using quartus software.
 
 
-##  RTL realization
-
 
 ## Timing diagram 
+HALF SUBTRACTOR 
+![267694523-4bb27be4-4192-46fd-aa4c-7e6f72016d2b](https://github.com/Sandy-56/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/152118022/3bb17243-4173-44b7-8984-0275277af0b7)
 
-## Result:
-Thus the half subtractor and full subtractor circuits are designed and the truth tables is verified using quartus software.
+FULL SUBTRACTOR 
+![267694585-67088219-cdb4-4a54-823a-066a0e1c0b49](https://github.com/Sandy-56/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/152118022/0947d00e-4d55-4f7f-8668-8a47a3d7ab1c)
