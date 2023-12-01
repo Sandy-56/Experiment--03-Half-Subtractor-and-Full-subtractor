@@ -35,14 +35,43 @@ Write the detailed procedure here
 ## Program:
 /*
 Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
+Half subtractor:
+```
+module halfsub(a,b,di,bo);
+input a,b;
+output di,bo;
+assign di=(a^b);
+assign bo=((~a)&b);
+endmodule 
+```
+Full subtractor:
+```
+module fs(a,b,bin,di,bo);
+input a,b,bin;
+output di,bo;
+assign di=a^b^bin;
+assign bo=((~a&b))|(b&bin)|((~a)&bin);
+endmodule
+```
+Developed by: Santhosh D M 
+RegisterNumber: 23013934
 */
 
 ## Output:
+HALF SUBTRACTOR
+![267694022-f4f042c0-7a73-4ea2-a004-fbeea417cde3](https://github.com/Sandy-56/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/152118022/2470e628-bf61-40a2-b14a-e763b06330e8)
+HALF SUBTRACTOR
+![267694145-4308edc9-98ba-4b5c-af9b-1c129530535b](https://github.com/Sandy-56/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/152118022/966b93f2-172e-4e6d-9ebc-f8dd684f2d63)
 
 ## Truthtable
+HALF SUBTRACTOR
+![267692671-6fc6d4d8-5411-4b2a-88f2-622698d2b64e](https://github.com/Sandy-56/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/152118022/1303d953-3ad4-4cb8-997b-3822d3f1f7de)
+FULL SUBTRACTOR
+![267693009-82ea8260-0ab9-4635-b0a7-8f0ee2764b7d](https://github.com/Sandy-56/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/152118022/5ae27a82-8f41-440d-b05d-644936cd8463)
 
+
+Result:
+Thus the half subtractor and full subtractor circuits are designed and the truth tables is verified using quartus software.
 
 
 ##  RTL realization
