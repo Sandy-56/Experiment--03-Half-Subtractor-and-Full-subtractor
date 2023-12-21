@@ -1,3 +1,5 @@
+## Name: Santhosh D M
+## Register Number: 212223050044
 # Experiment--03-Half-Subtractor-and-Full-subtractor
 ## Implementation-of-Half-subtractor-and-Full-subtractor-circuit
 ## AIM:
@@ -25,11 +27,16 @@ A full subtractor is a combinational circuit that performs subtraction involving
 
 Diff = A ⊕ B ⊕ Bin B = A'Bin + A'B + BBin
 
-## Procedure
+## Procedure:
+1.Use module projectname(input,output) to start the Verilog programmming.
 
+2.Assign inputs and outputs using the word input and output respectively.
 
+3.Use defined keywords like wire,assign and required logic gates to represent the boolean expression.
 
-Write the detailed procedure here 
+4.Use each output to represent one for difference and the other for borrow.
+
+5.End the verilog program using keyword endmodule
 
 
 ## Program:
@@ -53,15 +60,15 @@ assign di=a^b^bin;
 assign bo=((~a&b))|(b&bin)|((~a)&bin);
 endmodule
 ```
-Developed by: Santhosh D M 
-RegisterNumber: 23013934
 */
+## RTL Realization:
+Half subtractor
+![290618158-af4dd46a-5d0d-411f-8663-82ea12f78efb](https://github.com/Sandy-56/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/152118022/2356ac9c-bffd-4299-8ca5-ad5b6829ad4d)
 
-## Output:
-HALF SUBTRACTOR
-![267694022-f4f042c0-7a73-4ea2-a004-fbeea417cde3](https://github.com/Sandy-56/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/152118022/2470e628-bf61-40a2-b14a-e763b06330e8)
-HALF SUBTRACTOR
-![267694145-4308edc9-98ba-4b5c-af9b-1c129530535b](https://github.com/Sandy-56/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/152118022/966b93f2-172e-4e6d-9ebc-f8dd684f2d63)
+
+Full Subtractor
+![291252473-47eba206-f0e0-45cb-a9eb-6a2c2ab6d08d](https://github.com/Sandy-56/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/152118022/046260a7-ac5d-4b2b-b146-f724638eeaa8)
+
 
 ## Truthtable
 HALF SUBTRACTOR
